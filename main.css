@@ -87,14 +87,19 @@ main {
 
 /* CUSTOMIZE FilterButtnos
 -------------------------------------------------- */
-
+.filters {
+    display:-webkit-flex;
+    justify-content: center;
+}
 .filter-button {
     font-size: 18px;
     border:1px solid goldenrod;
     border-radius: 5px;
     text-align: center;
     color: goldenrod;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .filter-button:hover {
     font-size: 18px;
@@ -108,6 +113,13 @@ main {
     background-color: goldenrod;
     color: #fff;
     border-color: #1d688b;
+}
+.filter {
+    overflow:hidden;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
 }
 
 /* CUSTOMIZE Footer

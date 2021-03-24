@@ -1,20 +1,32 @@
-$(doucment).ready(function() {
+console.log("hello")
 
-    $('.filter-button').click(function() {
-        var value = $(this).attr('data-filter');
+let indicator = document.querySelectorAll(".filter-button")
+let games = document.querySelectorAll(".filter");
 
-        if(value == 'all')
-        {
-            $('.filter').show('1000');
+console.log(indicator)
+for(let i=0; i< indicator.length; i++)
+{
+    indicator[i].onclick = function(){
+        for(let x=0; x< indicator.length; x++){
+            indicator[x].classList.remove("active");
         }
-        else
-        {
-            $('.filter').not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
+        this.classList.add("active");
+        const displayItems = this.getAttribute("data-filter");
+        for(let z=0; z<games.length; z++){
+            games[z].style.transform = "scale(0)";
+            setTimeout(() =>{
+                games[z].style.display = "none";
+            }, 500);
+            if((games[z].getAttribute("data-category") == displayItems) ||
+            displayItems == "all")
+            {
+                games[z].style.transform = "scale(1)";
+                setTimeout(() =>{
+                    games[z].style.display = "block";
+                }, 500);
+            }
         }
-    })
-    if ($('.filter-button').removeClass('active')) {
-        $(this).removeClass('active');
     }
-    $(this).addClass('active');
-})
+}
+
+console.log(indicator)

@@ -3,7 +3,7 @@
     <head>
         <!-- Required meta tags-->
         <meta charset="utf-8">
-        <meta name="viewport" content="witht=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Łukasz Bronkowski">
 
         <!-- Bootstrap core CSS -->
@@ -33,7 +33,6 @@
                           <a class="dropdown-item" href="MyGames.html" title="My Board Games">My Games</a>
                           <a class="dropdown-item" href="Designers.html" title="Games Designers">Designers</a>
                           <a class="dropdown-item" href="Publishers.html" title="Games Publishers">Publishers</a>
-                          <a class="dropdown-item" href="MyGames.html" title="Games Reviewers">Reviewers</a>
                         </div>
                       </li>
                       <li class="nav-item auto">
@@ -54,199 +53,199 @@
                 <h1>My Board Games Collection</h1>
             </div>
             <div class="container games">
-              <div>
-                <a href="MyGames.html"><button class="filter-button" data-filter="all">All</button></a>
-                <a href="KidsGames.html"><button class="filter-button" data-filter="kids">Kids</button></a>
-                <a href="FamilyGames.html"><button class="filter-button" data-filter="familly">Family</button></button></a>
-                <a href="AdvancedGames.html"><button class="filter-button" data-filter="advanced">Advanced</button></a>
+              <div class="filters">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="kids">Kids</button>
+                <button class="filter-button" data-filter="family">Family</button></button>
+                <button class="filter-button" data-filter="advanced">Advanced</button>
               </div>
               <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                   <img src="images/draftozaur-cover.jpg" class="img-fluid" width="auto">
                     <p>Draftozaur</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                   <img src="images/MyLittleScythe-cover.jpg" class="img-fluid"width="auto">
                     <p>My Little Scythe</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/5Tribes-cover.jpg" class="img-fluid"width="auto">
                   <p>Pięć Klanów</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/7wonders-cover.jpg" class="img-fluid"width="auto">
                   <p>7 cudów</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                   <img src="images/aeonsend-cover.jpg" class="img-fluid"width="auto">
                     <p>Aeons End</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/azul-cover.jpg" class="img-fluid"width="auto">
                     <p>Azul</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/azulSintra-cover.jpg" class="img-fluid"width="auto">
                     <p>Azul Witraże Sintry</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/Calico-cover.jpg" class="img-fluid"width="auto">
                   <p>Calico</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/clank-cover.jpg" class="img-fluid"width="auto">
                   <p>Brzdęk! Nie drażnij Smoka</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/clank-space-cover.jpg" class="img-fluid"width="auto">
                     <p>Brzdęk! W kosmosie</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images//Cryptid-cover.jpg" class="img-fluid"width="auto">
                     <p>Cripted</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/potwory-w-tokio.jpg" class="img-fluid"width="auto">
                     <p>King of Tokyo</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                 <img src="images/missionRedPlanet-cover.jpg" class="img-fluid"width="auto">
                   <p>Mosja Czerwona Planeta</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                 <img src="images/puertoRico-cover.jpg" class="img-fluid"width="auto">
                   <p>Puerto Rico</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/wingspan-cover.jpg" class="img-fluid"width="auto">
                     <p>Na skrzydłach</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                   <img src="images/wysokieNapiecie-cover.jpg" class="img-fluid"width="auto">
                     <p>Wysokie napięcie</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                   <img src="images/zombicideBP-cover.jpg" class="img-fluid"width="auto">
                     <p>Zombicide Czarna Plaga</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/smallworld-cover.jpg" class="img-fluid"width="auto">
                   <p>Smallworld</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                 <img src="images/alhambra.jpg" class="img-fluid"width="auto">
                   <p>Alhambra</p>
                   <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                   <img src="images/myszki.png" class="img-fluid"width="auto">
                     <p>Myszki w opałach</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/fotosynteza.jpg" class="img-fluid"width="auto">
                       <p>Fotosynteza</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/tikal.jpg" class="img-fluid"width="auto">
                     <p>Tikal</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                   <img src="images/zombiekidz.png" class="img-fluid"width="auto">
                     <p>Zombie Kidz</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/splendor-cover.jfif" class="img-fluid"width="auto">
                       <p>Splendor</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/santornini-cover.png" class="img-fluid"width="auto">
                       <p>Santorini</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/osadnicy-cover.jpg" class="img-fluid"width="auto">
                     <p>Osadnicy Królestwa Północy</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                   <img src="images/kartografowie-cover.png" class="img-fluid"width="auto">
                     <p>Kartografowie</p>
                     <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/coltExpress-cover.jpg" class="img-fluid"width="auto">
                       <p>Colt Express</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/domek.jpg" class="img-fluid"width="auto">
                       <p>Domek</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/szarlatani.jpg" class="img-fluid"width="auto">
                       <p>Szarlatani z Pasikurowic</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                     <img src="images/wsiąśćpierwsza.jpg" class="img-fluid"width="auto">
                       <p>Wsiąść do Pociągu</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center advanced">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="advanced">
                     <img src="images/posrodGwiazd.jpg" class="img-fluid"width="auto">
                       <p>Pośród Gwiazd</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/pojedynek.jpg" class="img-fluid"width="auto">
                       <p>7 cudów Pojedynek</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/parkniedzwiedzi.jpg" class="img-fluid"width="auto">
                       <p>Park Niedzwiedzi</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center family">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="family">
                     <img src="images/hero-realms-gra-karciana-6459262.jpg" class="img-fluid"width="auto">
                       <p>Hero Realms</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                     <img src="images/kosci.jpg" class="img-fluid"width="auto">
                       <p>Kości Obfitości</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                     <img src="images/jurassicsnack.jpg" class="img-fluid"width="auto">
                       <p>Jurassic Snack</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
                   </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3 filter center kids">
+                  <div class="col-sm-6 col-md-4 col-lg-3 filter" data-category="kids">
                     <img src="images/i-list-milosny.jpg" class="img-fluid"width="auto">
                       <p>List Miłosny</p>
                       <p><a class="btn btn-outline-dark" href="#" role="button">View details &raquo;</a></p>
